@@ -3,7 +3,8 @@
    <application
         android:label="EgyGolf"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/ic_launcher"
+        android:usesCleartextTraffic="true">
         <activity
             android:name="com.example.EgyGolf.MainActivity"
             android:exported="true"
